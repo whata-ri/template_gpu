@@ -28,7 +28,7 @@
     // Need to change
     "workspaceMount": "source=/home/ubuntu/workspace,target=/workspace/,type=bind,consistency=cached",
     "workspaceFolder": "/workspace/",
-    "runArgs": ["--gpu", "all", "--name", "template", "-v", "/home/ubuntu/.ssh:/root/.ssh", "--shm-size=32G"],
+    "runArgs": ["--gpus", "all", "--name", "template", "-v", "/home/ubuntu/.ssh:/root/.ssh", "--shm-size=32G"],
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     "forwardPorts": [8888],
